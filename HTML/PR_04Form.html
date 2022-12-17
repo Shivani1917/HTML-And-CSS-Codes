@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FORM</title>
+</head>
+<body bgcolor="pink">
+    <h1 align="center"><u>REGISTRATION FORM</u></h1> 
+
+    <section>
+    First Name: <input type="text" name="name" required autofocus>        <!--required=mandatory field-->
+    Middle Name: <input type="text" name="name" required>     <!--autofocus=when page is open cursor automatically move to that place-->
+    Last Name: <input type="text" name="name" required><br> <!--Disable=user can't make changes on run time-->
+    Confidential: <input type="text" name="name" disabled>
+    </section>
+     
+    <br>
+
+    Gender: <input type="radio" name="r1" id="gender">Male
+    <input type="radio" name="r1" id="gender">Female
+    <input type="radio" name="r1" id="gender">other
+
+    <br>
+
+    Address: <input type="text" name="address" size="20">   <!--size=Jitne characters screen k box p show ho skte h--><br>
+    
+    Email: <input type="email" name="email" id="mail"><br>
+    Password: <input type="password" name="password" id="password"><br>
+    
+    <!--    DROPBOX    -->
+    Hobbies: <select>
+        <option>Select</option>   <!--DEFAULT-->
+        <option>Art & Craft</option>
+        <option>Sports</option>
+        <option>Cooking</option>
+        <option>Extras</option>
+    </select><br><br>
+    
+    <!--    DROPDOWN SCROLL BAR   -->
+    Hobbies: <select size="3">
+        <option>Select</option>    <!--DEFAULT-->
+        <option>Art & Craft</option>
+        <option>Sports</option>
+        <option>Cooking</option>
+        <option>Extras</option>
+    </select><br><br>
+
+    <!--   TO SELECT MULTIPLE   -->
+    Hobbies: <select size="3" multiple>
+        <option>Select</option>    <!--DEFAULT-->
+        <option>Art & Craft</option>
+        <option>Sports</option>
+        <option>Cooking</option>
+        <option>Extras</option>
+    </select><br><br>
+    
+    D.O.B: <input type="date"><br>
+    Month: <input type="month"><br>
+    Time: <input type="time"><br>
+    Day: <input type="week"><br>
+
+    CV: <input type="file" name="file" id="file"><br>
+    Image: <input type="image" hidden   ><br> <!--Hidden=hide that from the page-->
+    Image: <input type="image" ><br><br>
+    <input type="reset"><br>
+
+
+    Feedback box: <br>
+    <textarea name="feedback" id="feedback" cols="10" rows="10"></textarea><br><br>
+
+    <input type="button" name="submit" value="Submit">
+</body>
+</html>
